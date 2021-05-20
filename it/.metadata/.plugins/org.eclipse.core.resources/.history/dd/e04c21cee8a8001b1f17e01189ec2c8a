@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+public class metoda {
+
+	ArrayList<String> c = new ArrayList<>();
+	
+	public void setC(String s) {
+		c.add(s);
+	}
+	public String getC() {
+		 
+		return c.toString();
+	}
+	public void plus() {
+		String a ="";
+		a = c.get(0)+c.get(1);
+		c.set(0, a);
+		c.remove(1);
+	}
+}

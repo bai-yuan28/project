@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+public class nevim {
+
+	ArrayList<Integer> c = new ArrayList<>();
+	
+	public void setC(int neco) {
+		c.add(neco);
+	}
+}

@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+public class metoda {
+
+	ArrayList<Integer> c = new ArrayList<>();
+	
+	public void setC(int neco) {
+		c.add(neco);
+	}
+}

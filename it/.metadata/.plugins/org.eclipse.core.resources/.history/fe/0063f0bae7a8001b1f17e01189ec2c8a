@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+public class metoda {
+
+	ArrayList<String> c = new ArrayList<>();
+	
+	public void setC(String s) {
+		c.add(s);
+	}
+	public String getC() {
+		int cc = c.size(); 
+		return c.get(cc);
+	}
+}
